@@ -1,0 +1,26 @@
+pandas
+numpy
+yfinance
+scikit-learn
+matplotlib
+seaborn
+plotly
+flask
+python-dotenv
+
+
+Core Python Libraries-
+pandas	Data manipulation, CSV read/write
+numpy	Numerical operations
+yfinance	Fetch stock data
+scikit-learn	Feature scaling, ML models (Linear Regression, etc.)
+statsmodels	Optional: time series analysis, ARIMA
+matplotlib	Basic plotting & visualization
+seaborn	Advanced plots & trends
+plotly	Interactive graphs for website
+datetime	Date handling
+
+WEB-
+flask	Build the website backend
+dash (optional alternative)	Interactive dashboards
+jinja2	Flask HTML templating (comes with Flask)
