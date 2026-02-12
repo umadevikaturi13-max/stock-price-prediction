@@ -1,26 +1,27 @@
-pandas
-numpy
-yfinance
-scikit-learn
-matplotlib
-seaborn
-plotly
-flask
-python-dotenv
+Short ML Workflow for This Project:
+1. Load dataset → stock_features.csv
+2. Select target & features
+    Target: Close of the stock to predict
+    Features: MA20, MA50, Daily_Return, Volatility, Volume (optional Open/High/Low)
+3. Split dataset → train/test (e.g., 80/20)
+4. Scale features → StandardScaler (for ML algorithms like LinearRegression, SVR)
+5. Train model → Linear Regression / Random Forest / LSTM (for time series)
+6. Evaluate model → RMSE, MAPE
+7. Predict & visualize trends → Interactive Plotly graphs on website
 
+Core Python Libraries:
+pandas-	Data manipulation, CSV read/write
+numpy-	Numerical operations
+yfinance-	Fetch stock data
+scikit-learn-	Feature scaling, ML models (Linear Regression, etc.)
+statsmodels	Optional- time series analysis, ARIMA
+matplotlib-	Basic plotting & visualization
+seaborn-	Advanced plots & trends
+plotly-	Interactive graphs for website
+datetime-	Date handling
 
-Core Python Libraries-
-pandas	Data manipulation, CSV read/write
-numpy	Numerical operations
-yfinance	Fetch stock data
-scikit-learn	Feature scaling, ML models (Linear Regression, etc.)
-statsmodels	Optional: time series analysis, ARIMA
-matplotlib	Basic plotting & visualization
-seaborn	Advanced plots & trends
-plotly	Interactive graphs for website
-datetime	Date handling
+WEB:
+flask-	Build the website backend
+dash (optional alternative)-	Interactive dashboards
+jinja2-	Flask HTML templating (comes with Flask)
 
-WEB-
-flask	Build the website backend
-dash (optional alternative)	Interactive dashboards
-jinja2	Flask HTML templating (comes with Flask)
